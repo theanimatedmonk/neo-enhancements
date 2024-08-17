@@ -1,0 +1,50 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Neo</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/@rive-app/canvas@latest/rive.js"></script>
+  
+</head>
+<body>
+    <div class="ai-button">
+    <canvas id="open-popup-btn" width="292" height="104"></canvas>
+    <!--<button id="open-popup-btn">Open Menu</button>-->
+
+    <div id="popup-menu" class="popup-menu hidden">
+
+        <div class="menu-item" id="generate-design">
+            <canvas id="generate-design-option" width="56" height="56"></canvas>
+            <div class="menu-content"><h3>Generate design</h3>
+            <span>New layout with changed colors and fonts</span>
+            </div>
+        </div>
+
+<div class="line-separator"></div>
+
+        <div class="menu-item"  id="generate-content">
+            <canvas id="generate-content-option" width="56" height="56"></canvas>
+                <div class="menu-content"><h3>Generate content</h3>
+                <span>New text & images with same site layout</span>
+                </div>
+        </div>
+
+<div class="line-separator"></div>
+
+        <div class="menu-item">
+            <img src="all over.svg" alt="">
+                <div class="menu-content"><h3>Start all over again</h3>
+                <span>New design & content</span>
+                </div>
+        </div>
+
+
+    </div>
+</div>
+
+    <script src="script.js"></script>
+</body>
