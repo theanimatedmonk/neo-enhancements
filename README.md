@@ -1,2 +1,2 @@
-# neo-enhancements
-Neo enhancement for UI interactions
+# Button glow interaction
+Glow button and its menu
